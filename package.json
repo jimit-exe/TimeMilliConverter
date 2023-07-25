@@ -1,12 +1,35 @@
 {
   "name": "timemilliconverter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Easily convert time strings to milliseconds and the other way around",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "time",
+    "ms",
+    "milliseconds",
+    "readable",
+    "string",
+    "number",
+    "hrtime",
+    "period",
+    "duration"
+  ],
+  "author": "Jimit Patel <jimitpatel932@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/timestring": "^6.0.2",
+    "pretty-ms": "^8.0.0",
+    "timestring": "^7.0.0"
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
