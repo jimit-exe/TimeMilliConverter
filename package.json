@@ -8,6 +8,10 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimit-exe/TimeMilliConverter"
+  },
   "keywords": [
     "time",
     "ms",
@@ -19,6 +23,9 @@
     "period",
     "duration"
   ],
+  "bugs": {
+    "url": "https://github.com/jimit-exe/TimeMilliConverter/issues"
+  },
   "author": "Jimit Patel <jimitpatel932@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -31,5 +38,6 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "homepage": "https://github.com/jimit-exe/TimeMilliConverter/blob/main/README.md"
 }
